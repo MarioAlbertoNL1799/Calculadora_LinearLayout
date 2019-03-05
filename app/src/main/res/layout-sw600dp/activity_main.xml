@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:text="@string/text_view1"
             android:textColor="@android:color/background_dark"
-            android:textSize="18sp"
+            android:textSize="38sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.224"
@@ -37,12 +37,13 @@
             android:id="@+id/eT_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="2dp"
-            android:ems="10"
+            android:layout_marginLeft="42dp"
+            android:ems="4"
+            android:textSize="28dp"
             android:inputType="numberDecimal"
             android:textAlignment="textStart"
             android:textColor="@color/colorNum"
-            tools:ignore="Autofill,LabelFor"
+            tools:ignore="Autofill,LabelFor,SpUsage"
             tools:layout_editor_absoluteX="170dp"
             tools:layout_editor_absoluteY="128dp" />
     </LinearLayout>
@@ -61,7 +62,7 @@
             android:layout_height="wrap_content"
             android:text="@string/text_view2"
             android:textColor="@android:color/background_dark"
-            android:textSize="18sp"
+            android:textSize="38sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.224"
@@ -74,12 +75,13 @@
             android:id="@+id/eT_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="2dp"
-            android:ems="10"
+            android:layout_marginLeft="42dp"
+            android:ems="4"
             android:inputType="numberDecimal"
             android:textAlignment="textStart"
             android:textColor="@color/colorNum"
-            tools:ignore="Autofill,LabelFor,RtlHardcoded"
+            android:textSize="28dp"
+            tools:ignore="Autofill,LabelFor,SpUsage"
             tools:layout_editor_absoluteX="169dp"
             tools:layout_editor_absoluteY="75dp" />
     </LinearLayout>
@@ -112,12 +114,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="42dp"
-            android:ems="10"
+            android:ems="4"
             android:enabled="false"
             android:inputType="numberDecimal"
             android:textAlignment="textStart"
             android:textColor="@color/colorResult"
-            tools:ignore="Autofill,LabelFor" />
+            android:textSize="28dp"
+            tools:ignore="Autofill,LabelFor,SpUsage" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="180dp"
