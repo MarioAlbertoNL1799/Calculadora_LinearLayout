@@ -42,7 +42,8 @@
             android:textAlignment="textStart"
             android:textColor="@android:color/holo_red_dark"
             tools:layout_editor_absoluteX="170dp"
-            tools:layout_editor_absoluteY="128dp" />
+            tools:layout_editor_absoluteY="128dp"
+            tools:ignore="Autofill,LabelFor" />
     </LinearLayout>
 
     <LinearLayout
@@ -50,7 +51,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="30dp"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded">
 
         <TextView
             android:id="@+id/tV_2"
@@ -77,7 +79,8 @@
             android:textAlignment="textStart"
             android:textColor="@android:color/holo_red_dark"
             tools:layout_editor_absoluteX="169dp"
-            tools:layout_editor_absoluteY="75dp" />
+            tools:layout_editor_absoluteY="75dp"
+            tools:ignore="Autofill,LabelFor,RtlHardcoded" />
     </LinearLayout>
 
     <LinearLayout
@@ -85,7 +88,8 @@
         android:layout_marginLeft="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        tools:ignore="RtlHardcoded">
 
         <TextView
             android:id="@+id/tV_r"
@@ -95,7 +99,6 @@
             android:textColor="@android:color/background_dark"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:textt="@string/text_result"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.224"
             app:layout_constraintLeft_toLeftOf="parent"
@@ -114,11 +117,11 @@
             android:textAlignment="textStart"
             android:textColor="@color/colorAccent"
             tools:layout_editor_absoluteX="169dp"
-            tools:layout_editor_absoluteY="201dp" />
+            tools:layout_editor_absoluteY="201dp"
+            tools:ignore="Autofill,LabelFor" />
     </LinearLayout>
     <LinearLayout
         android:layout_marginTop="30dp"
-        android:paddingHorizontal="20dp"
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -131,7 +134,8 @@
             android:textSize="30sp"
             android:layout_marginLeft="4dp"
             tools:layout_editor_absoluteX="63dp"
-            tools:layout_editor_absoluteY="383dp" />
+            tools:layout_editor_absoluteY="383dp"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
 
         <Button
             android:id="@+id/b_res"
@@ -141,7 +145,8 @@
             android:layout_marginLeft="4dp"
             android:textSize="30sp"
             tools:layout_editor_absoluteX="179dp"
-            tools:layout_editor_absoluteY="383dp" />
+            tools:layout_editor_absoluteY="383dp"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
 
     </LinearLayout>
 
@@ -149,7 +154,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:paddingHorizontal="20dp"
         android:orientation="horizontal">
 
         <Button
@@ -160,7 +164,8 @@
             android:text="*"
             android:textSize="30sp"
             tools:layout_editor_absoluteX="295dp"
-            tools:layout_editor_absoluteY="383dp" />
+            tools:layout_editor_absoluteY="383dp"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
 
         <Button
             android:id="@+id/b_div"
@@ -170,7 +175,8 @@
             android:text="/"
             android:textSize="30sp"
             tools:layout_editor_absoluteX="64dp"
-            tools:layout_editor_absoluteY="483dp" />
+            tools:layout_editor_absoluteY="483dp"
+            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
     </LinearLayout>
 
     <LinearLayout
@@ -187,7 +193,8 @@
             android:text="%"
             android:textSize="30sp"
             tools:layout_editor_absoluteX="179dp"
-            tools:layout_editor_absoluteY="470dp" />
+            tools:layout_editor_absoluteY="470dp"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 
 </LinearLayout>
